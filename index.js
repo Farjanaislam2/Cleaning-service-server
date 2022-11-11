@@ -54,7 +54,7 @@ client.connect((err) => {
     res.send(services);
   })
 
-  //post
+  //pos
 
 
   app.post("/addServices", (req, res) => {
