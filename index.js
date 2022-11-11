@@ -12,7 +12,7 @@ const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb');
 
 console.log(process.env.DB_USER);
  
-//middle ware
+//middle wares
 app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
