@@ -38,7 +38,7 @@ client.connect((err) => {
   const serviceCollection = client.db('cleaner').collection('service');
 
 
-  //get service dat
+  //get service data
 
   app.get('/service',async(req,res) =>{
     const query = {};
